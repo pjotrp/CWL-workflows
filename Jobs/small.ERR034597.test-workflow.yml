@@ -1,10 +1,10 @@
 fq1:  # type "File"
     class: File
-    path: ../DATA/small.ERR034597_1.fastq
+    path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tE/small.ERR034597_1.fastq
     format: http://edamontology.org/format_1930
 fq2:  # type "File"
     class: File
-    path: ../DATA/small.ERR034597_2.fastq
+    path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tE/small.ERR034597_2.fastq
     format: http://edamontology.org/format_1930
 fadir:  # type "Directory"
     class: Directory
