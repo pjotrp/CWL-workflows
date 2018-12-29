@@ -1,6 +1,10 @@
 # CWL-workflows
 Workflows written in common workflow language (CWL)
 
+NOTE: this branch of the repository contains the workflow as described
+in the reproducible
+[WORKFLOW](https://gitlab.com/pjotrp/guix-notes/blob/master/WORKFLOW.org)
+example (using GNU Guix, IPFS and CWL).
 
 # Run a workflow
 (Plesae see how to install cwltool: https://github.com/common-workflow-language/cwltool)
