@@ -19,12 +19,17 @@ requirements:
 baseCommand: [ bwa, mem ]
 
 inputs:
-  - id: fadir
-    type: Directory
-    doc: directory containing FastA file and index
   - id: ref
-    type: string
-    doc: name of reference (e.g., hs37d5)
+    type: File
+    inputBinding:
+      position: 2
+    doc: Fasta reference (e.g., hs37d5)
+    secondaryFiles:
+      - .amb
+      - .ann
+      - .bwt
+      - .pac
+      - .sa
   - id: fq1
     type: File
     format: edam:format_1930
@@ -37,18 +42,15 @@ inputs:
     inputBinding:
       position: 4
     doc: FastQ file from next-generation sequencers
-    
+
 outputs:
   - id: sam
     type: stdout
     format: edam:format_2573
 
 stdout: output.sam
-      
+
 arguments:
   - position: 1
     prefix: -t
     valueFrom: "4"
-  - position: 2
-    valueFrom: $(inputs.fadir.path)/$(inputs.ref).fa
-

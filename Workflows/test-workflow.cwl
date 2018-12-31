@@ -19,14 +19,11 @@ inputs:
     format: edam:format_1930
     doc: FastQ file from next-generation sequencers
 
-  fadir:
-    type: Directory
-    doc: directory containing FastA file and index
-
   ref:
-    type: string
-    doc: name of reference (e.g., hs37d5)
-    
+    type: File
+    format: edam:format_1929
+    doc: reference (e.g., hs37d5) in fasta format
+
 steps:
   qc1:
     label: qc1
@@ -74,12 +71,12 @@ steps:
     doc: Mapping onto a reference genome
     run: ../Tools/bwa-mem-PE.cwl
     in:
-      fadir: fadir
+      # fadir: fadir
       ref: ref
       fq1: trimPE/trimFq1P
       fq2: trimPE/trimFq2P
     out: [sam]
-    
+
 outputs:
   oqc1:
     type: File

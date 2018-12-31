@@ -6,7 +6,18 @@ fq2:  # type "File"
     class: File
     path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tE/small.ERR034597_2.fastq
     format: http://edamontology.org/format_1930
-fadir:  # type "Directory"
-    class: Directory
-    path: ../DATA
-ref: small.chr22  # type "string"
+ref:  # type "File"
+    class: File
+    path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tE/small.chr22.fa
+    format: http://edamontology.org/format_1929
+    secondaryFiles:
+      - class: File
+        path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tE/small.chr22.fa.amb
+      - class: File
+        path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tE/small.chr22.fa.ann
+      - class: File
+        path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tE/small.chr22.fa.bwt
+      - class: File
+        path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tE/small.chr22.fa.pac
+      - class: File
+        path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tE/small.chr22.fa.sa

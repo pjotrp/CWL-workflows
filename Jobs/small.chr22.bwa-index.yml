@@ -1,5 +1,5 @@
 fa:  # type "File"
     class: File
-    path: ../DATA/small.chr22.fa
+    path: http://localhost:8080/ipfs/QmR81HRaDDvvEjnhrq5ftMF1KRtqp8MiwGzwZnsC4ch1tEsmall.chr22.fa
     format: http://edamontology.org/format_1929
       
