@@ -9,4 +9,4 @@ CWL).
 See the CWL viewer: https://view.commonwl.org/workflows/github.com/pjotrp/CWL-workflows/blob/guix-cwl/Workflows/test-workflow.cwl
 
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
-[[./graph.png]]
+[[./graph.png][https://view.commonwl.org/workflows/github.com/pjotrp/CWL-workflows/blob/guix-cwl/Workflows/test-workflow.cwl]]
