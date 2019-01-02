@@ -23,6 +23,12 @@ inputs:
     type: File
     format: edam:format_1929
     doc: reference (e.g., hs37d5) in fasta format
+    secondaryFiles:
+      - .amb
+      - .ann
+      - .bwt
+      - .pac
+      - .sa
 
 steps:
   qc1:
