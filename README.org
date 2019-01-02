@@ -1,6 +1,8 @@
-* CWL reproducible workflow
+# -*- mode: org; coding: utf-8; -*-
+#+Title: A CWL reproducible workflow (with GNU Guix and IPFS)
+#+Author: Pjotr Prins
 
-Workflows written in common workflow language (CWL)
+/Workflows written in common workflow language (CWL)/
 
 This repository contains the workflow as described in the reproducible
 [[https://github.com/pjotrp/guix-notes/blob/master/WORKFLOW.org][WORKFLOW.org]] example (using GNU Guix, IPFS and CWL).
