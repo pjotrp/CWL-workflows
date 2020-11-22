@@ -1,0 +1,1 @@
+env GUIX_PACKAGE_PATH=.:~/iwrk/opensource/guix/guix-bioinformatics/  ~/.config/guix/current/bin/guix environment -C guix --ad-hoc cwltool trimmomatic-jar bwa fastqc go-ipfs curl --network
