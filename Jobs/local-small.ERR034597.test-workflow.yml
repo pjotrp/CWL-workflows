@@ -1,0 +1,23 @@
+fq1:  # type "File"
+    class: File
+    path: ../DATA2/small.ERR034597_1.fastq
+    format: http://edamontology.org/format_1930
+fq2:  # type "File"
+    class: File
+    path: ../DATA2/small.ERR034597_2.fastq
+    format: http://edamontology.org/format_1930
+ref:  # type "File"
+    class: File
+    path: ../DATA2/small.chr22.fa
+    format: http://edamontology.org/format_1929
+    secondaryFiles:
+      - class: File
+        path: ../DATA2/small.chr22.fa.amb
+      - class: File
+        path: ../DATA2/small.chr22.fa.ann
+      - class: File
+        path: ../DATA2/small.chr22.fa.bwt
+      - class: File
+        path: ../DATA2/small.chr22.fa.pac
+      - class: File
+        path: ../DATA2/small.chr22.fa.sa
