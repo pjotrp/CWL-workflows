@@ -21,7 +21,7 @@ Next
 guix pull --commit=3d7917f04229fe533ee7dadfd64257b474dead86
 env GUIX_PACKAGE_PATH=.:~/guix-bioinformatics \
   ~/.config/guix/current/bin/guix environment -C guix --ad-hoc cwltool \
-  trimmomatic-jar bwa fastqc go-ipfs 
+  trimmomatic-jar bwa fastqc  
 
 cwltool --no-container Workflows/test-workflow.cwl Jobs/local-small.ERR034597.test-workflow.yml
   <lots of output>
