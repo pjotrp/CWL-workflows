@@ -55,7 +55,7 @@ outputs:
 
 arguments:
   - position: 1
-    valueFrom: /gnu/store/v2jys382g6j5b7lsxzh8v4vfhd414nhz-profile/lib/share/jar/trimmomatic-0.38.jar
+    valueFrom: /gnu/store/j1ljhxzaxmcqy8v6d4v1y37p48c68f5q-profile/lib/share/jar/trimmomatic-0.38.jar
   - position: 2
     valueFrom: PE
   - position: 5
@@ -67,4 +67,4 @@ arguments:
   - position: 8
     valueFrom: $(inputs.fq2.basename).trim.2U.fastq
   - position: 9
-    valueFrom: 'ILLUMINACLIP:/gnu/store/v2jys382g6j5b7lsxzh8v4vfhd414nhz-profile/lib/share/jar/adapters/TruSeq2-PE.fa:2:40:15'
+    valueFrom: 'ILLUMINACLIP:/gnu/store/j1ljhxzaxmcqy8v6d4v1y37p48c68f5q-profile/lib/share/jar/adapters/TruSeq2-PE.fa:2:40:15'
